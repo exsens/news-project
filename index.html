@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#283b53">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>МРПА</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header class="header">
+  <div class="container header__container">
+
+    <a href="index.html" class="header__logo logo" aria-label="Логотип МРПА" title="Главная страница МРПА">
+      <svg class="logo__img1 object-fit">
+        <use href="images/svgSprite/svgSprite.svg#logo-img"></use>
+      </svg>
+      <svg class="logo__img2 object-fit">
+        <use href="images/svgSprite/svgSprite.svg#logo-text"></use>
+      </svg>
+    </a>
+
+    <nav class="nav header__nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#" class="nav__link"><span>Наблюдательный</span><span>Совет</span></a></li>
+        <li class="nav__item"><a href="#" class="nav__link"><span>Экспертный</span><span>Совет</span></a></li>
+        <li class="nav__item"><a href="#" class="nav__link"><span>Совет</span><span>Партнерства</span></a></li>
+        <li class="nav__item"><a href="#" class="nav__link"><span>Аналитический</span><span>Центр</span></a></li>
+      </ul>
+    </nav>
+
+    <div class="authorization header__authorization">
+      <a href="#" class="authorization__link">Вход</a>
+      <a href="#" class="authorization__link">Регистрация</a>
+    </div>
+
+    <form class="language header__language">
+      <label for="ru" title="Переключить на Русский Язык">
+        <input class="language__control language__control--ru" type="radio" name="lang" checked id="ru">
+      </label>
+      <label for="eu" title="Change to English">
+        <input class="language__control language__control--eu" type="radio" name="lang" id="eu">
+      </label>
+    </form>
+
+    <nav class="nav header__nav header__nav--mob">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#" class="nav__link"><span>Реестр</span><span>Участников</span></a></li>
+        <li class="nav__item"><a href="#" class="nav__link"><span>Документы</span><span>Партнерства</span></a></li>
+      </ul>
+    </nav>
+    <div class="burger header__burger">
+  <button type="button" aria-label="Открыть меню"><span></span></button>
+</div>
+  <div class="burger-menu header__burger-menu">
+    <div class="burger-menu-authorization">
+      <a href="#" class="burger-menu-authorization__link">Вход</a>
+      <a href="#" class="burger-menu-authorization__link">Регистрация</a>
+    </div>
+    <nav class="nav burger-menu__nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#" class="nav__link"><span>Наблюдательный</span><span>Совет</span></a></li>
+        <li class="nav__item"><a href="#" class="nav__link"><span>Экспертный</span><span>Совет</span></a></li>
+        <li class="nav__item"><a href="#" class="nav__link"><span>Совет</span><span>Партнерства</span></a></li>
+        <li class="nav__item"><a href="#" class="nav__link"><span>Аналитический</span><span>Центр</span></a></li>
+      </ul>
+    </nav>
+
+   <form class="language burger__language">
+      <label for="ru">
+        <input class="language__control language__control--ru" type="radio" name="lang" checked id="ru">
+      </label>
+      <label for="eu">
+        <input class="language__control language__control--eu" type="radio" name="lang" id="eu">
+      </label>
+    </form>
+  </div>
+ 
+  </div>
+
+  <div class="overlay"></div>
+</header>
+    <div class="global-wrapper">
+            <main class="main">
+                <section class="hero">
+  <div class="hero__wrapper">
+    <h1 class="main-title hero__title">Межрегиональное развитие Арктической зоны</h1>
+    <p class="main-descr hero__descr">Межрегиональное научно-технологическое, деловое и образовательное партнерство</p>
+  </div>
+</section>
+                <section class="top-news">
+    <div class="container">
+        <h2 class="top-news__title mid-title">Новости проекта</h2>
+        <ul class="top-news__list scroller top-news-scroller">
+
+            <li class="top-news__item card">
+                <article class="card__article">
+                    <div href="#" class="card__images">
+                        <picture>
+                            <source srcset="../images/news-images/card1.webp" type="image/webp">
+                            <img class="object-fit lazyload" src="../images/news-images/card1.jpg" width="288px"
+                                height="294px" alt="Работы в Арктике">
+                        </picture>
+                    </div>
+                    <a href="#" class="card__date news-date" aria-label="Новости дня" title="Новости дня">05.05.2020</a>
+                    <h3 class="card__title">Россия запустит первый спутник для метеонаблюдений в Арктике в
+                        конце года</h3>
+                    <a href="single-news.html" class="card__link" aria-label="Перейти на новость" title="Арктика"></a>
+                </article>
+            </li>
+
+            <li class="top-news__item card">
+                <article class="card__article">
+                    <div class="card__images">
+                        <picture>
+                            <source srcset="../images/news-images/card2.webp" type="image/webp">
+                            <img class="object-fit lazyload" src="../images/news-images/card2.jpg" width="288px"
+                                height="294px" alt="Юрий Петрович Трутнев">
+                        </picture>
+                    </div>
+                    <a href="#" class="card__date news-date" aria-label="Новости дня" title="Новости дня">05.05.2020</a>
+                    <h3 class="card__title">Трутнев ожидает, что стратегия развития Арктики будет представлена в июле
+                    </h3>
+                    <a href="single-news.html" class="card__link" aria-label="Перейти на новость"
+                        title="Юрий Петрович Трутнев"></a>
+                </article>
+            </li>
+
+            <li class="top-news__item card">
+                <article class="card__article">
+                    <div class="card__images">
+                        <picture>
+                            <source srcset="../images/news-images/card3.webp" type="image/webp">
+                            <img class="object-fit lazyload" src="../images/news-images/card3.jpg" width="288px"
+                                height="294px" alt="Работы в Арктике">
+                        </picture>
+                    </div>
+                    <a href="#" class="card__date news-date" title="Новости дня">05.05.2020</a>
+                    <h3 class="card__title">В Минвостокразвития подготовили список мер поддержки бизнеса в Арктике</h3>
+                    <a href="single-news.html" class="card__link" aria-label="Перейти на новость"
+                        title="Работы в Арктике"></a>
+                </article>
+            </li>
+
+        </ul>
+        <a href="all-news.html" class="top-news__btn all-news-btn" aria-label="Открыть все новости">Все новости</a>
+    </div>
+</section>
+                <section class="dowloand dowloand--main">
+  <div class="container">
+    <h2 class="visually-hidden">Скачать документацию Меморандума Межрегионального партнерства</h2>
+    <div class="dowloand__row">
+      <div class="dowloand__col1">
+        <h2 class="dowloand__title small-title">Межрегиональное научно-технологическое, деловое и образовательное
+          партнерство
+          «Устойчивое развитие Арктической зоны Российской Федерации»
+        </h2>
+      </div>
+      <div class="dowloand__col2">
+        <a href="#" download class="dowloand-link" aria-label="Скачать PDF файл">
+          <span class="dowloand-link__icon dowloand-link__icon--pdf"></span>
+          <span class="dowloand-link__dscr main-text">Меморандум Межрегионального партнерства </span>
+        </a>
+      </div>
+    </div>
+    <div class="dowloand__row">
+      <div class="dowloand__col1">
+        <p class="documents__text main-text">Масштабы и сложность накопленных технологических и экологических проблем
+          требуют новых системных подходов к организации их решения в первую очередь за счет консолидации усилий органов
+          государственной власти и местного самоуправления, бизнес-сектора, науки, образования и общественности, включая
+          волонтеров, на единой общественной платформе в формате Межрегионального научно-технологического, делового и
+          образовательного партнерства.
+        </p>
+      </div>
+      <div class="dowloand__col2">
+        <a href="#" download class="dowloand-link" aria-label="Скачать PDF файл">
+          <span class="dowloand-link__icon dowloand-link__icon--pdf"></span>
+          <span class="dowloand-link__dscr main-text">Меморандум Межрегионального партнерства </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+                <section class="movie section">
+  <div class="container">
+    <h2 class="mid-title">Развитие Арктической зоны в 2020-2025 годах</h2>
+    <div class="movie__inner">
+      <div class="movie__player aria-label="Видео о развитии Арктической зоны">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/f7hbWvHKns0?start=136" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img{position:absolute;width:100%;height:100%;top:0;bottom:0;}span{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%)}span svg{width:67px;height:78px;}</style>
+          <a href=https://www.youtube.com/embed/f7hbWvHKns0?autoplay=1>
+            <picture>
+            <source srcset=https://img.youtube.com/vi_webp/f7hbWvHKns0/hqdefault.webp type=image/webp>
+            <img class=object-fit lazyloaded src=https://img.youtube.com/vi/f7hbWvHKns0/hqdefault.jpg alt='Развитие Арктической зоны'>
+            </picture>
+            <span aria-label=Воспроизвести видео><svg class=object-fit width=50px height=62px><use href=images/svgSprite/svgSprite.svg#play></use></svg>
+            </span></a>" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+          title="Развитие Арктической зоны">
+        </iframe>
+      </div>
+      <div class="movie__descr description">
+        <h3 class="description__title">К участию в Партнерстве приглашаются</h3>
+        <p class="description__text">российские и зарубежные юридические и физические лица, ведущие общественные
+          объединения и некоммерческие организации, научно-образовательные и экспертно-аналитические центры России.
+        </p>
+        <a href="#" class="description__link all-news-btn">Подробнее</a>
+      </div>
+    </div>
+</section>
+            </main>
+        <footer class="footer">
+	<div class="container">
+		<div class="footer__row">
+
+			<div class="footer__col footer__col--1">
+				<h2 class="footer__title">
+					Арктика, Межрегиональное Партнерство
+				</h2>
+				<ul class="footer__contacts contacts">
+					<li class="contacts__item"><a class="contacts__link small-text" href="#" target="_blank">119607 г.Москва, ул. Профсоюзная д.42</a></li>
+					<li class="contacts__item"><a class="contacts__link small-text" href="tel:+70951234567">+7 095 123-45-67</a></li>
+					<li class="contacts__item"><a class="contacts__link small-text" href="mailto:contact@arcticrussia.ru">contact@arcticrussia.ru</a></li>
+			</div>
+
+			<div class="footer__col footer__col--2">
+				<h2 class="footer__title">Соцсети:</h2>
+				<ul class="footer__social social">
+					<li class="social__item"><a class="social__link" href="#" aria-label="Мы в Твиттере"><svg width="24px"
+								height="24px">
+								<use href="images/svgSprite/svgSprite.svg#twitter"></use>
+							</svg>
+						</a></li>
+					<li class="social__item"><a class="social__link" href="#" aria-label="Мы в Фэйсбуке"><svg width="24px"
+								height="24px">
+								<use href="images/svgSprite/svgSprite.svg#facebook"></use>
+							</svg>
+						</a></li>
+					<li class="social__item"><a class="social__link" href="#" aria-label="Мы в ВК"><svg width="24px"
+								height="24px">
+								<use href="images/svgSprite/svgSprite.svg#vk"></use>
+							</svg>
+						</a></li>
+					<li class="social__item"><a class="social__link" href="#" aria-label="Мы в Инстаграмме"><svg width="24px"
+								height="24px">
+								<use href="images/svgSprite/svgSprite.svg#insta"></use>
+							</svg>
+						</a></li>
+					<li class="social__item"><a class="social__link" href="#" aria-label="Мы в Ютубе"><svg width="24px"
+								height="24px">
+								<use href="images/svgSprite/svgSprite.svg#youtube"></use>
+							</svg>
+						</a></li>
+					<li class="social__item"><a class="social__link" href="#" aria-label="Мы в Телеграмм"><svg width="24px"
+								height="24px">
+								<use href="images/svgSprite/svgSprite.svg#telegram"></use>
+							</svg>
+						</a></li>
+				</ul>
+			</div>
+
+		</div>
+		<div class="footer__copyright copyright small-text">
+			<div class="copyright__links">
+				<a class="copyright__link" href="#">Пользовательское соглашение</a>
+				<span>и</span>
+				<a class="copyright__link" href="#">Политика конфиденциальности</a>
+			</div>
+			<p class="copyright__text">Межрегиональное развитие Арктической зоны, 2020</p>
+		</div>
+	</div>
+</footer>
+        
+    </div> <!-- global-wrapper  -->
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
