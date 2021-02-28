@@ -2,70 +2,63 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#283b53">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="images/favicon/site.webmanifest">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>МРПА</title>
-    <link rel="stylesheet" href="css/style.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#283b53">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="images/favicon/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>МРПА</title>
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
-    <header class="header">
-	<div class="container header__container">
+  <header class="header header--opac">
+  <div class="container header__container">
 
-		<a href="index.html" class="header__logo logo" aria-label="Логотип МРПА" title="Главная страница МРПА">
-			<svg class="logo__img1 object-fit">
-				<use href="images/svgSprite/svgSprite.svg#logo-img"></use>
-			</svg>
-			<svg class="logo__img2 object-fit">
-				<use href="images/svgSprite/svgSprite.svg#logo-text"></use>
-			</svg>
-		</a>
+    <a href="index.html" class="header__logo logo" aria-label="Логотип МРПА" title="Главная страница МРПА">
+      <svg class="logo__img1 object-fit">
+        <use href="images/svgSprite/svgSprite.svg#logo-img"></use>
+      </svg>
+      <svg class="logo__img2 object-fit">
+        <use href="images/svgSprite/svgSprite.svg#logo-text"></use>
+      </svg>
+    </a>
 
-		<nav class="nav header__nav">
-			<ul class="nav__list">
-				<li class="nav__item"><a href="supervisory-partnerships.html" class="nav__link">
-						<span>Наблюдательный</span><span>Совет</span></a>
-				</li>
-				<li class="nav__item"><a href="expert-council.html" class="nav__link">
-						<span>Экспертный</span><span>Совет</span></a>
-				</li>
-				<li class="nav__item"><a href="#" class="nav__link">
-						<span>Совет</span><span>Партнерства</span></a>
-				</li>
-				<li class="nav__item"><a href="#" class="nav__link">
-						<span>Аналитический</span><span>Центр</span></a>
-				</li>
-			</ul>
-		</nav>
+    <nav class="nav header__nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="supervisory-partnerships.html"
+            class="nav__link"><span>Наблюдательный</span><span>Совет</span></a></li>
+        <li class="nav__item"><a href="expert-council.html" class="nav__link"><span>Экспертный</span><span>Совет</span></a></li>
+        <li class="nav__item"><a href="#" class="nav__link"><span>Совет</span><span>Партнерства</span></a></li>
+        <li class="nav__item"><a href="#" class="nav__link"><span>Аналитический</span><span>Центр</span></a></li>
+      </ul>
+    </nav>
 
-		<div class="authorization header__authorization">
-			<a href="#" class="authorization__link">Вход</a>
-			<a href="#" class="authorization__link">Регистрация</a>
-		</div>
+    <div class="authorization header__authorization">
+      <a href="#" class="authorization__link">Вход</a>
+      <a href="#" class="authorization__link">Регистрация</a>
+    </div>
 
-		<form class="language header__language">
-			<label for="ru" title="Переключить на Русский Язык">
-				<input class="language__control language__control--ru" type="radio" name="lang" checked id="ru">
-			</label>
-			<label for="eu" title="Change to English">
-				<input class="language__control language__control--eu" type="radio" name="lang" id="eu">
-			</label>
-		</form>
+    <form class="language header__language">
+      <label for="ru" title="Переключить на Русский Язык">
+        <input class="language__control language__control--ru" type="radio" name="lang" checked id="ru">
+      </label>
+      <label for="eu" title="Change to English">
+        <input class="language__control language__control--eu" type="radio" name="lang" id="eu">
+      </label>
+    </form>
 
-		<nav class="nav header__nav header__nav--mob">
-			<ul class="nav__list">
-				<li class="nav__item"><a href="#" class="nav__link"><span>Реестр</span><span>Участников</span></a></li>
-				<li class="nav__item"><a href="#" class="nav__link"><span>Документы</span><span>Партнерства</span></a></li>
-			</ul>
-		</nav>
-		<button type="button" aria-label="Открыть меню" class="burger header__burger">
+    <nav class="nav header__nav header__nav--mob">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#" class="nav__link"><span>Реестр</span><span>Участников</span></a></li>
+        <li class="nav__item"><a href="#" class="nav__link"><span>Документы</span><span>Партнерства</span></a></li>
+      </ul>
+    </nav>
+    <button type="button" aria-label="Открыть меню" class="burger header__burger">
   <span></span>
 </button>
 
@@ -93,25 +86,30 @@
     </form>
   </div>
  
-	</div>
+  </div>
 
-	<div class="overlay"></div>
+  <div class="overlay"></div>
 </header>
-    <div class="global-wrapper">
-            <main class="main">
-              <section> 
-                <div class="container">
-                    
-  <ul class="breadcrumbs">
+  <div class="global-wrapper global-wrapper--header-opac">
+    <main class="main expert-council">
+        <div class="hero hero--expert-council"></div>
+        <div class="container expert-council__container">
+          <section class="topic-page">
+  
+  <ul class="breadcrumbs topic-page__breadcrumbs">
     <li class="breadcrumbs__item"><a href="index.html" class="breadcrumbs__link small-text">Главная</a></li>
-    <li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link small-text">Новости</a></li>
+    <li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link small-text">Наблюдательный Совет</a></li>
   </ul>
 
-                    <h2 class="all-news__title main-title padding">Новости</h2>
-                </div>
-              </section>
-            </main>
-        <footer class="footer">
+  <h1 class="topic-page__title main-title">Наблюдательный Совет Партнерства</h1>
+  <p class="topic-page__descr main-descr">Деятельность Наблюдательного Совета
+    обеспечивается применением современных информационно-коммуникационных технологий.</p>
+    
+  <div class="decorline"></div>
+</section>
+        </div>
+    </main>
+    <footer class="footer">
 	<div class="container">
 		<div class="footer__row">
 
@@ -173,10 +171,10 @@
 		</div>
 	</div>
 </footer>
-        
-    </div> <!-- global-wrapper  -->
 
-    <script src="js/main.js"></script>
+  </div> <!-- global-wrapper  -->
+
+  <script src="js/main.js"></script>
 </body>
 
 </html>

@@ -17,50 +17,58 @@
 
 <body>
     <header class="header">
-  <div class="container header__container">
+	<div class="container header__container">
 
-    <a href="index.html" class="header__logo logo" aria-label="Логотип МРПА" title="Главная страница МРПА">
-      <svg class="logo__img1 object-fit">
-        <use href="images/svgSprite/svgSprite.svg#logo-img"></use>
-      </svg>
-      <svg class="logo__img2 object-fit">
-        <use href="images/svgSprite/svgSprite.svg#logo-text"></use>
-      </svg>
-    </a>
+		<a href="index.html" class="header__logo logo" aria-label="Логотип МРПА" title="Главная страница МРПА">
+			<svg class="logo__img1 object-fit">
+				<use href="images/svgSprite/svgSprite.svg#logo-img"></use>
+			</svg>
+			<svg class="logo__img2 object-fit">
+				<use href="images/svgSprite/svgSprite.svg#logo-text"></use>
+			</svg>
+		</a>
 
-    <nav class="nav header__nav">
-      <ul class="nav__list">
-        <li class="nav__item"><a href="supervisory-partnerships.html"
-            class="nav__link"><span>Наблюдательный</span><span>Совет</span></a></li>
-        <li class="nav__item"><a href="#" class="nav__link"><span>Экспертный</span><span>Совет</span></a></li>
-        <li class="nav__item"><a href="#" class="nav__link"><span>Совет</span><span>Партнерства</span></a></li>
-        <li class="nav__item"><a href="#" class="nav__link"><span>Аналитический</span><span>Центр</span></a></li>
-      </ul>
-    </nav>
+		<nav class="nav header__nav">
+			<ul class="nav__list">
+				<li class="nav__item"><a href="supervisory-partnerships.html" class="nav__link">
+						<span>Наблюдательный</span><span>Совет</span></a>
+				</li>
+				<li class="nav__item"><a href="expert-council.html" class="nav__link">
+						<span>Экспертный</span><span>Совет</span></a>
+				</li>
+				<li class="nav__item"><a href="#" class="nav__link">
+						<span>Совет</span><span>Партнерства</span></a>
+				</li>
+				<li class="nav__item"><a href="#" class="nav__link">
+						<span>Аналитический</span><span>Центр</span></a>
+				</li>
+			</ul>
+		</nav>
 
-    <div class="authorization header__authorization">
-      <a href="#" class="authorization__link">Вход</a>
-      <a href="#" class="authorization__link">Регистрация</a>
-    </div>
+		<div class="authorization header__authorization">
+			<a href="#" class="authorization__link">Вход</a>
+			<a href="#" class="authorization__link">Регистрация</a>
+		</div>
 
-    <form class="language header__language">
-      <label for="ru" title="Переключить на Русский Язык">
-        <input class="language__control language__control--ru" type="radio" name="lang" checked id="ru">
-      </label>
-      <label for="eu" title="Change to English">
-        <input class="language__control language__control--eu" type="radio" name="lang" id="eu">
-      </label>
-    </form>
+		<form class="language header__language">
+			<label for="ru" title="Переключить на Русский Язык">
+				<input class="language__control language__control--ru" type="radio" name="lang" checked id="ru">
+			</label>
+			<label for="eu" title="Change to English">
+				<input class="language__control language__control--eu" type="radio" name="lang" id="eu">
+			</label>
+		</form>
 
-    <nav class="nav header__nav header__nav--mob">
-      <ul class="nav__list">
-        <li class="nav__item"><a href="#" class="nav__link"><span>Реестр</span><span>Участников</span></a></li>
-        <li class="nav__item"><a href="#" class="nav__link"><span>Документы</span><span>Партнерства</span></a></li>
-      </ul>
-    </nav>
-    <div class="burger header__burger">
-  <button type="button" aria-label="Открыть меню"><span></span></button>
-</div>
+		<nav class="nav header__nav header__nav--mob">
+			<ul class="nav__list">
+				<li class="nav__item"><a href="#" class="nav__link"><span>Реестр</span><span>Участников</span></a></li>
+				<li class="nav__item"><a href="#" class="nav__link"><span>Документы</span><span>Партнерства</span></a></li>
+			</ul>
+		</nav>
+		<button type="button" aria-label="Открыть меню" class="burger header__burger">
+  <span></span>
+</button>
+
   <div class="burger-menu header__burger-menu">
     <div class="burger-menu-authorization">
       <a href="#" class="burger-menu-authorization__link">Вход</a>
@@ -85,9 +93,9 @@
     </form>
   </div>
  
-  </div>
+	</div>
 
-  <div class="overlay"></div>
+	<div class="overlay"></div>
 </header>
     <div class="global-wrapper">
             <main class="main">
@@ -97,7 +105,7 @@
     <p class="main-descr hero__descr">Межрегиональное научно-технологическое, деловое и образовательное партнерство</p>
   </div>
 </section>
-                <section class="top-news section-top section-bottom">
+                <section class="top-news padtop padbtm">
     <div class="container">
         <h2 class="mid-title margbtmxl">Новости проекта</h2>
         <ul class="top-news__list top-news-scroller scroller">
@@ -155,37 +163,37 @@
         <a href="all-news.html" class="top-news__btn all-news-btn" aria-label="Открыть все новости">Все новости</a>
     </div>
 </section>
-                <section class="dowloand section-bottom">
+                <section class="specification padtop padbtm">
   <div class="container">
     <h2 class="visually-hidden">Скачать документацию Меморандума Межрегионального партнерства</h2>
-    <div class="dowloand__row">
-      <div class="dowloand__col1">
-        <h3 class="dowloand__title small-title">Межрегиональное научно-технологическое, деловое и образовательное
+    <div class="specification__row">
+      <div class="specification__col1">
+        <h3 class="specification__title small-title margbtmxl">Межрегиональное научно-технологическое, деловое и образовательное
           партнерство
           «Устойчивое развитие Арктической зоны Российской Федерации»
         </h3>
-      </div>
-      <div class="dowloand__col2">
-        <a href="#" download class="dowloand-link" aria-label="Скачать PDF файл">
-          <span class="dowloand-link__icon dowloand-link__icon--pdf"></span>
-          <span class="dowloand-link__dscr main-text">Меморандум Межрегионального партнерства </span>
-        </a>
-      </div>
-    </div>
-    <div class="dowloand__row">
-      <div class="dowloand__col1">
-        <p class="documents__text main-text">Масштабы и сложность накопленных технологических и экологических проблем
+        <p class="specification__text main-text">Масштабы и сложность накопленных технологических и экологических проблем
           требуют новых системных подходов к организации их решения в первую очередь за счет консолидации усилий органов
           государственной власти и местного самоуправления, бизнес-сектора, науки, образования и общественности, включая
           волонтеров, на единой общественной платформе в формате Межрегионального научно-технологического, делового и
           образовательного партнерства.
         </p>
       </div>
-      <div class="dowloand__col2">
-        <a href="#" download class="dowloand-link" aria-label="Скачать PDF файл">
-          <span class="dowloand-link__icon dowloand-link__icon--pdf"></span>
-          <span class="dowloand-link__dscr main-text">Меморандум Межрегионального партнерства </span>
-        </a>
+      <div class="specification__col2">
+       <ul class="dowloand">
+  <li class="dowloand__item">
+    <a href="#" download class="dowloand__link dowloand-btn" aria-label="Скачать PDF файл">
+      <span class="dowloand-btn__icon dowloand-btn__icon--pdf"></span>
+      <p class="dowloand-btn__dscr main-text">Меморандум Межрегионального партнерства </p>
+    </a>
+  </li>
+  <li class="dowloand__item">
+    <a href="#" download class="dowloand__link dowloand-btn" aria-label="Скачать PDF файл">
+      <span class="dowloand-btn__icon dowloand-btn__icon--pdf"></span>
+      <p class="dowloand-btn__dscr main-text">Меморандум Межрегионального партнерства </p>
+    </a>
+  </li>
+</ul>
       </div>
     </div>
   </div>
